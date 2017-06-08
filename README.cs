@@ -1,4 +1,4 @@
-# Form2
+//form1
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -25,7 +25,7 @@ namespace Vinayak
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text=="")
+            if (textBox1.Text == "" || textBox2.Text == "" || textBox3.Text == "" || textBox4.Text == "")
             {
                 MessageBox.Show("Fill all the entries properly");
             }
